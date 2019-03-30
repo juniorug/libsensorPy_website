@@ -1,0 +1,26 @@
+body {
+  background-color: #ffffff;
+  padding: 0 20px 30px 20px;
+}
+
+span.options { 
+   font-size: 70%; 
+   color: #000000;
+}
+span.options a{ 
+   color: #1c4e63;
+}
+
+td.summary {
+	border: 0px;
+}
+
+table.summary {
+	background: none;
+	border: 0px;
+}
+
+.panel-body {
+  /* padding: 15px; */
+  padding: 0px 0px 0px 0px;
+ }

@@ -1,0 +1,519 @@
+/* CSS Document */
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	text-decoration:none;
+	font-family:'Open Sans', sans-serif;
+	list-style:none;
+	}
+.clear{
+	clear:both;
+	}	
+body{
+	background:url(../img/main_bg.png);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	min-height:700px;
+	}
+html{
+	background:url(../img/main_bg_top.png);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center top;	
+	}	
+#page_wrapper{
+	width:960px;
+	margin:0 auto;
+	}
+	
+/*Header*/			
+#page_main_header{
+	background:url(../img/main_header_bg.png);
+	width:961px;
+	height:99px;
+	margin-top:-10px;
+	}	
+#page_main_header h1 a{
+	margin:0 0 0 57px;
+	font-size:38px;
+	line-height:45px;
+	float:left;
+	font-weight:100;
+	color:#666666;
+	text-transform:uppercase;
+	line-height:99px;
+	white-space:nowrap;
+	width:652px;
+	}
+#page_main_header .link_search {
+	float:left;
+	width:250px;
+	}
+#page_main_header .link_search .chrco_link{
+	margin:15px 57px 0;
+	background:url(../img/childrens_hospital_logo.gif);
+	width:77px;
+	margin:30px 0 0 110px;
+	height:36px;	
+	text-indent:-999999px;
+	display:block;
+	float:left;
+	}
+
+/*Main Body */		
+#page_main_body{
+	position:relative;
+	}
+/***********/	
+/*Main Menu*/
+/***********/			
+#page_main_body #main_menu{	
+	margin-top:28px;
+	}
+#page_main_body #main_menu ul{	
+	margin-left:55px;
+	}	
+#page_main_body #main_menu li{
+	float:left;	
+	margin-right:8px;	
+	}
+#page_main_body #main_menu li a{
+	text-transform:uppercase;
+	background:url(../img/main_menu_btns.png);
+	background-repeat:no-repeat;
+	text-align:center;
+	display:block;
+	width:64px;	
+	height:16px;
+	line-height:20px;
+	font-size:10px;
+	color:#333333;
+	}
+#page_main_body #main_menu li .menu_on,	
+#page_main_body #main_menu li a:hover{
+	background-position:-68px 0;
+	}	
+#page_main_body #main_menu li .whatisscd{
+	width:77px;	
+	background-position:-136px 0;
+	}
+#page_main_body #main_menu li .whatisscd:hover,
+#page_main_body #main_menu li .whatisscd_menu_on{
+	width:77px;	
+	background-position:-216px 0;
+	}	
+#page_main_body #main_menu li .facebook{
+	margin-left:108px;
+	width:72px;	
+	background-position:-297px 0;
+	text-indent:-999999px;
+	}	
+/***********/	
+/*Content Box*/	
+/***********/							
+#page_main_body #main_wrapper_top{
+	background:url(../img/main_wrapper_top_bg.png);
+	height:11px;
+	}
+#page_main_body #main_wrapper_body{
+	background:url(../img/main_wrapper_body_bg.png);
+	}
+#page_main_body #main_wrapper_bottom{
+	background:url(../img/main_wrapper_bottom_bg.png);
+	height:9px;
+	}	
+/***********/
+/*Main Content*/
+/***********/		
+#page_main_body .main_content{
+	padding:12px 60px 45px;
+	line-height:24px;
+	}
+#page_main_body .main_content .vertical_rule_425{
+	background:url(../img/horizontal_blue_rule_425.png);
+	height:2px;
+	width:425px;
+	margin:12px auto 12px;
+	}	
+#page_main_body .main_content p{
+	color:#4D4D4D;
+	font-size:17px;
+	font-weight:100;
+	}
+#page_main_body .main_content p a{
+	color:#004D80;
+	font-size:17px;
+	}
+#page_main_body .main_content a{
+	color:#004D80;
+	font-size:13px;
+	}		
+#page_main_body .main_content p	.content_link{
+	float:right;
+	font-size:12px;
+	line-height:30px;
+	} 
+#page_main_body .main_content p .small_font{
+	font-size:12px;
+	}
+#page_main_body .main_content_banner{
+	width:665px;
+	margin-bottom:0px;
+	float:left;
+	}
+#page_main_body .main_content_banner p{
+	width:380px;
+	float:left;
+	}	
+#page_main_body	.video_home{
+	float:left;
+	margin-left:30px;
+	}
+#page_main_body	.highlights{
+	background:blue;
+	width:175px;
+	float:left;
+	}
+#page_main_body .main_content h2{
+	color:#004D80;
+	font-size:20px;
+	font-weight:100;
+	line-height:24px;
+	padding:14px 0px 10px 0px;
+	}	
+#page_main_body .main_content .title_padding_100{
+	padding-left:100px;
+	}			
+#page_main_body .main_content li{
+	list-style:url(../img/list_icon.png);
+	list-style-position:inside;
+	color:#4D4D4D;
+	font-weight:lighter;
+	}	
+.float_left{
+	float:left;
+	margin:30px;
+	}
+.float_right{
+	float:right;
+	}
+/***********/
+/* layout3columns */
+/***********/
+#page_main_body .main_content .layout3columns{
+	}
+
+#page_main_body .main_content .layout3columns ul{
+	width:260px;
+	float:left;	
+	}
+#page_main_body .main_content .layout3columns ul h3{
+	font-size:13px;
+	line-height:18px;	
+	padding:12px 0;
+	font-weight:lighter;
+	text-transform:uppercase;
+	}
+#page_main_body .main_content .layout3columns li{
+	background:url(../img/horizontal_blue_rule_249.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	list-style:none;
+	font-size:13px;
+	line-height:18px;	
+	padding:12px 0;
+	}	
+#page_main_body .main_content .layout3columns .column1of3,
+#page_main_body .main_content .layout3columns .column2of3{
+	margin-right:30px;
+	}
+#page_main_body .main_content .layout3columns .column3of3{
+	margin-right:0px;
+	}	
+#page_main_body .main_content .layout3columns .top{
+	margin-top:42px;
+	}
+#page_main_body .main_content .layout3columns .bottom{
+	margin-top:26px;
+	}
+#page_main_body .main_content .layout3columns .vertical_rule_249{
+	background:url(../img/horizontal_blue_rule_249.png);
+	width:249px;
+	height:1px;
+	}
+/***********/	
+/*Side Boxes*/
+/***********/
+#page_main_body .side_box_body_blue,
+#page_main_body .side_box_body_green{
+	padding:12px 28px;
+	font-size:12px; 
+	line-height:20px;
+	font-weight:500;
+	color:#4D4D4D;
+	}
+#page_main_body .side_box_body_blue p,
+#page_main_body .side_box_body_green p{
+	font-size:12px;
+	line-height:20px;
+	}
+#page_main_body .side_box_body_blue h3,
+#page_main_body .side_box_body_green h3{
+	font-size:12px;
+	line-height:20px;
+	font-weight:600;
+	}
+#page_main_body .side_box_body_blue li,
+#page_main_body .side_box_body_green li{
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+	list-style:none;
+	}	
+#page_main_body .side_box_body_blue a,
+#page_main_body .side_box_body_green a{
+	font-size:12px;
+	line-height:20px;
+	color:#004D80;
+	}	
+.sb_content_left{
+	
+	}
+.sb_content_right{
+	margin-top:12px;	
+	margin-left:0px;
+	width:160px;
+	}
+#page_main_body .side_btn_highlight p{
+	font-size:13px;
+	font-weight:600;
+	}
+.sb_home_1{
+	margin-left:-5px;
+	margin-top:-1px;
+	text-align:center;
+	}
+.sb_home_1 a{
+	text-align:center;
+	}		
+.sb_home_1 side_box_body{
+	padding:0;
+	}
+.sb_home_3{
+	padding-top:60px;
+	}	
+.sb_home_4{
+	padding-top:300px;
+	}	
+/***********/			
+/*Side Box Left*/	
+/***********/	
+#page_main_body .side_box_left{
+	width:213px;
+	display:block;
+	float:left;
+	margin:0px 30px 10px -65px;
+	}
+/***********/		
+/*Left Box Green*/	
+/***********/
+#page_main_body .side_box_left .side_box_top_green{
+	height:9px;
+	background:url(../img/side_menu_left_green_top.png);
+	}
+#page_main_body .side_box_left .side_box_body_green{
+	background:url(../img/side_menu_left_green_body.png);
+	}		
+#page_main_body .side_box_left .side_box_bottom_green{
+	height:9px;
+	background:url(../img/side_menu_left_green_bottom.png);
+	}	
+/***********/	
+/*Left Box Blue*/	
+/***********/
+#page_main_body .side_box_left .side_box_top_blue{
+	height:9px;
+	background:url(../img/side_menu_left_blue_top.png);
+	}
+#page_main_body .side_box_left .side_box_body_blue{
+	background:url(../img/side_menu_left_blue_body.png);
+	}		
+#page_main_body .side_box_left .side_box_bottom_blue{
+	height:9px;
+	background:url(../img/side_menu_left_blue_bottom.png);
+	}	
+/***********/	
+/*Side Box Right*/	
+/***********/
+#page_main_body .side_box_right{
+	width:213px;
+	display:block;
+	float:right;
+	margin:0px -65px 10px 27px;
+	}	
+/***********/
+/*Right Box Green*/	
+/***********/
+#page_main_body .side_box_right .side_box_top_green{
+	height:9px;
+	background:url(../img/side_menu_right_green_top.png);
+	}
+#page_main_body .side_box_right .side_box_body_green{
+	background:url(../img/side_menu_right_green_body.png);
+	}		
+#page_main_body .side_box_right .side_box_bottom_green{
+	height:9px;
+	background:url(../img/side_menu_right_green_bottom.png);
+	}
+/***********/		
+/*Right Box Blue*/	
+/***********/
+#page_main_body .side_box_right .side_box_top_blue{
+	height:9px;
+	background:url(../img/side_menu_right_blue_top.png);
+	}
+#page_main_body .side_box_right .side_box_body_blue{
+	background:url(../img/side_menu_right_blue_body.png);
+	}		
+#page_main_body .side_box_right .side_box_bottom_blue{
+	height:9px;
+	background:url(../img/side_menu_right_blue_bottom.png);
+	}
+/***********/		
+/*Right Box No Color*/	
+/***********/
+#page_main_body .side_box_right .side_box_top_nocolor{
+	height:9px;
+	background:url();
+	}
+#page_main_body .side_box_right .side_box_body_nocolor{
+	background:url();
+	}		
+#page_main_body .side_box_right .side_box_bottom_nocolor{
+	height:9px;
+	background:url();
+	}	
+/***********/	
+/*Side Box Right Big*/	
+/***********/
+#page_main_body .side_box_right_big{
+	width:439px;
+	display:block;
+	float:right;
+	margin:0px -65px 10px 27px;
+	}	
+/***********/		
+/*Right Box Blue Big*/	
+/***********/
+#page_main_body .side_box_right_big .side_box_top_blue{
+	height:9px;
+	background:url(../img/side_menu_right_blue_big_top.png);
+	}
+#page_main_body .side_box_right_big .side_box_body_blue{
+	background:url(../img/side_menu_right_blue_big_body.png);
+	}		
+#page_main_body .side_box_right_big .side_box_bottom_blue{
+	height:9px;
+	background:url(../img/side_menu_right_blue_big_bottom.png);
+	}
+/***********/		
+/*Right Box Blue Big Inside Body*/	
+/***********/
+.resource #page-pane{
+	color:#FFF;
+	}	
+/***********/		
+/*Right Box Blue Big Contact*/	
+/***********/
+
+.side_box_right_big .side_box_body_blue .column_left{
+	width:50%;
+	float:left;
+	}
+.side_box_right_big .side_box_body_blue .column_left input{
+	margin-right:5px;
+	}
+.side_box_right_big .side_box_body_blue .column_right{
+	width:50%;
+	float:left;
+	}
+.side_box_right_big .side_box_body_blue .column_right input{
+	width:179px;
+	}
+.side_box_right_big .side_box_body_blue .contact_ta{
+	width:370px;!important 
+	height:140px;!important 
+	}
+
+
+
+/*Footer*/	
+#page_main_body #main_wrapper_body #main_footer{
+
+	}	
+#main_footer{
+	font-size:10px;
+	line-height:12px;
+	color:#666666;
+	}
+#main_footer ul{
+	background:url(../img/footer_menu_817bg.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:38px;
+	width:960px;
+	margin:0 auto;
+	}
+#main_footer ul li a{	
+	line-height:38px;
+	float:left;
+	width:55px;
+	display:block;
+	text-align:center;
+	color:#666666;
+	}
+#main_footer ul li .menu_on,
+#main_footer ul li a:hover{
+	font-weight:800;
+	}
+#main_footer .home{
+	margin-left:45px;
+	}
+#main_footer ul li .whatisscd{
+	width:155px;
+	}
+#main_footer ul li .sctrait{
+	width:100px;
+	}		
+#main_footer p{
+	text-align:center;
+	padding:14px 25px 20px;
+	font-size:11px;
+	line-height:14px;
+	}
+
+#main_footer #disclaimer{
+	width:625px;
+	float:left;
+	}
+#main_footer #footer_right{
+	width:332px;
+	float:left;
+	}
+#main_footer #footer_right #search_box{
+	float:right;
+	margin:20px 20px 20px 0;
+	height:20px;
+	width:300px;
+	}
+#main_footer #footer_right #daterra_signature p{
+	width:145px;
+	line-height:50px;
+	font-size:10px;
+	padding:0;
+	} 	
+#main_footer #footer_right #daterra_signatur img{
+	float:right;
+	}
